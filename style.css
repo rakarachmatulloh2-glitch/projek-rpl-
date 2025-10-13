@@ -82,6 +82,44 @@ body{
 
 /* layanan style */
 #our-service{
-    height:100vh;
+    padding:100px 0;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: var(--pr-hijau);
+}
+.card-layanan{
+    height: 313px;
+    padding: 40px;
+    background-color: #fff;
+}
+.card-layanan h4{
+    font-size: 24;
+    font-weight: 500;
+    color: var(--pr-hijau);
+}
+.card-layanan p{
+    color: #000;
+}
+.card-layanan:hover{
+    height: 313px;
+    padding: 40px;
+    background: linear-gradient(160deg,var(--pr-hijau),#000000e4);
+}
+.card-layanan:hover h4{
+    font-size: 24;
+    font-weight: 500;
+    color: #fff;
+}
+.card-layanan :hover p{
+    color: #fff;
+}
+.card-layanan:hover .container-img{
+    background-color:#fff;
 }
 /* end layanan */
